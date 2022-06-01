@@ -7,7 +7,6 @@ export const HeaderStyle = styled.header`
 	z-index: 75;
 	top: 0;
 	left: 0;
-	padding-top: 3em;
 	text-align: center;
 	width: 100%;
 
