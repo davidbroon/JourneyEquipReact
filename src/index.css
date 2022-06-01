@@ -14,5 +14,5 @@ code {
 @font-face {
 	font-family: 'Lemon Milk';
 	src: local('Lemon Milk'),
-		url(./assets/fonts/lemon_milk/LEMONMILK-Regular.otf) format('truetype');
+		url(./assets/fonts/lemon_milk/LEMONMILK-Light.otf) format('truetype');
 }
