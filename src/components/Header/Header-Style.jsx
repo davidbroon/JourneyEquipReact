@@ -2,7 +2,14 @@ import styled from 'styled-components';
 
 export const HeaderStyle = styled.header`
 	height: 196px;
-	background-color: #fff;
+	background-color: hsla(0, 0%, 0%, 0);
+	position: absolute;
+	z-index: 75;
+	top: 0;
+	left: 0;
+	padding-top: 3em;
+	text-align: center;
+	width: 100%;
 
 	.container {
 		display: flex;

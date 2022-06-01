@@ -1,6 +1,6 @@
 import { Button } from '@mui/material';
 import { styled as styledMui } from '@mui/material';
-import { accent1 } from '../../style/colorConstants';
+import { accent1, accent3 } from '../../style/colorConstants';
 
 export const StyledButton = styledMui(Button)({
 	display: 'flex',
@@ -20,6 +20,7 @@ export const StyledButton = styledMui(Button)({
 	boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
 
 	'&:hover, &:focus': {
+		backgroundColor: { accent3 },
 		border: `1px solid ${accent1}`,
 	},
 	'&:active': {

@@ -1,0 +1,43 @@
+.heroImage {
+	background-image: url('../../../assets/images/BG_Image.jpeg');
+	padding-top: 196px;
+	height: 100vh;
+	background-repeat: no-repeat;
+	width: auto;
+}
+
+.heroContainer {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: inherit;
+}
+.heroTitleText {
+	font-family: 'Lemon Milk';
+	color: #ffffff;
+}
+
+.heroTextContainer {
+	font-family: 'Lemon Milk';
+	color: #ffffff;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 60px;
+	line-height: 81px;
+	text-align: center;
+}
+
+.heroLine {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	gap: 10px;
+	width: 10px;
+	height: 400px;
+}
+
+.heroButtonAndLine {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: end;
+}
