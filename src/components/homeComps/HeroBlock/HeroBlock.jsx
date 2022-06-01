@@ -1,5 +1,5 @@
 import './HeroBlock.Style.css';
-import { accent4, accent3, accent2 } from '../../../style/colorConstants';
+import { accent3, accent2 } from '../../../style/colorConstants';
 import { StyledButton } from '../../Button/Button';
 
 const HeroBlock = () => {
