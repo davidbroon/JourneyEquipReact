@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 //import Footer from "./components/Footer/Footer";
-//import Header from "./components/Header/Header";
+import Header from './components/Header/Header';
 import Home from './components/pages/Home';
 //import Dashboard from "./components/Dashboard/Dashboard";
 
@@ -10,7 +10,7 @@ function App() {
 	return (
 		<div className='App'>
 			<Router>
-				{/* <Header></Header> */}
+				<Header></Header>
 				<div className='container'>
 					<Routes>
 						<Route path='/' element={<Home />} />
