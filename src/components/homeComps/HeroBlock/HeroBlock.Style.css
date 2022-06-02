@@ -1,9 +1,11 @@
 .heroImage {
 	background-image: url('../../../assets/images/BG_Image.jpeg');
 	padding-top: 196px;
-	height: 100vh;
+	height: 95vh;
 	background-repeat: no-repeat;
 	width: auto;
+	background-position: center;
+	background-size: cover;
 }
 
 .heroContainer {
@@ -13,12 +15,12 @@
 	height: inherit;
 }
 .heroTitleText {
-	font-family: 'Lemon Milk';
+	font-family: 'Lemon Milk Light';
 	color: #ffffff;
 }
 
 .heroTextContainer {
-	font-family: 'Lemon Milk';
+	font-family: 'Lemon Milk Light';
 	color: #ffffff;
 	font-style: normal;
 	font-weight: 300;
