@@ -7,7 +7,6 @@ export const HeaderStyle = styled.header`
 	z-index: 75;
 	top: 0;
 	left: 0;
-	padding-top: 3em;
 	text-align: center;
 	width: 100%;
 
@@ -31,7 +30,7 @@ export const HeaderStyle = styled.header`
 		margin-right: 40px;
 
 		li {
-			font-family: 'Lemon Milk';
+			font-family: 'Lemon Milk Light';
 			font-style: normal;
 			font-weight: 300;
 			font-size: 18px;
