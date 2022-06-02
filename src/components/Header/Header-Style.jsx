@@ -30,7 +30,7 @@ export const HeaderStyle = styled.header`
 		margin-right: 40px;
 
 		li {
-			font-family: 'Lemon Milk';
+			font-family: 'Lemon Milk Light';
 			font-style: normal;
 			font-weight: 300;
 			font-size: 18px;
