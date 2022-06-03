@@ -27,7 +27,7 @@ export const HeaderStyle = styled.header`
 		list-style-type: none;
 		height: 80px;
 		margin-bottom: 0;
-		margin-right: 40px;
+		// margin-right: 40px;
 
 		li {
 			font-family: 'Lemon Milk Light';
