@@ -1,10 +1,11 @@
-import CoreValueDisplay from '../../homeComps/CoreValues/CoreValues';
-import HeroBlock from '../../homeComps/HeroBlock/HeroBlock';
+import CoreValueDisplay from '../../homeComps/coreValues/CoreValues';
+import HeroBlock from '../../homeComps/heroBlock/HeroBlock';
 import WhoAreWe from '../../homeComps/textSections/whoAreWe/whoAreWe';
 import journeyCV from '../../../dummyData/journeyCoreValues.json';
 import LeadersBlock from '../../homeComps/textSections/leaders/LeadersBlock';
 import WaitListForm from '../../homeComps/waitListForm/WaitForm';
 import WhatToExpect from '../../homeComps/WhatToExpect/WhatToExpect';
+import CourseOutline from '../../homeComps/courseOutline/CourseOutline';
 
 const Home = () => {
 	const cvMap = () => {
@@ -25,6 +26,7 @@ const Home = () => {
 			<LeadersBlock />
 			<WaitListForm />
 			<WhatToExpect />
+			<CourseOutline />
 		</div>
 	);
 };
