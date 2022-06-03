@@ -22,6 +22,7 @@ const Home = () => {
 		<div>
 			<HeroBlock />
 			<WhoAreWe />
+			<WaitListForm />
 			{cvMap()}
 			<LeadersBlock />
 			<WaitListForm />

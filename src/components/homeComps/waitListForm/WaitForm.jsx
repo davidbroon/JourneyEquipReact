@@ -66,7 +66,7 @@ const WaitListForm = ({ status, message, onValidated }) => {
 		<>
 			<div className='openFormButton'>
 				<button className='styleButton' onClick={() => setOpen(!open)}>
-					Register Interest
+					Register Your Interest
 				</button>
 			</div>
 			<div className='formWrapper' style={{ display: display }}>
