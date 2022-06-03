@@ -10,6 +10,7 @@ const HeroBlock = () => {
 				<div className='heroTextContainer'>
 					<p className='heroTitleText'>
 						Equipping Leaders for
+						<br />
 						<span style={{ color: accent2 }}> revival</span>
 					</p>
 				</div>
