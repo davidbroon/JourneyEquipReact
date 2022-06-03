@@ -71,16 +71,9 @@ const WaitListForm = ({ status, message, onValidated }) => {
 			</div>
 			<div className='formWrapper' style={{ display: display }}>
 				<form className='baseForm' onSubmit={handleSubmit} noValidate>
-					{/* Form Header
-					<header className='baseFormHeader'>
-						<h1 className='baseFormHeading'>Register Interest</h1>
-					</header> */}
-					{/* Form main content */}
-
 					<div className='formRow col-1'>
 						<div className='formFieldWrap'>
 							<label className='formFieldLabel' htmlFor='name'>
-								{/* What's Your Name */}
 								<span className='errorMessage'>
 									{touched['name'] && errors['name']}
 								</span>
@@ -95,13 +88,11 @@ const WaitListForm = ({ status, message, onValidated }) => {
 									placeholder="What's Your Name"
 								/>
 							</div>
-							{/* <span className='countryCue'>Minimum length is 8 characters</span> */}
 						</div>
 					</div>
 					<div className='formRow col-1'>
 						<div className='formFieldWrap'>
 							<label className='formFieldLabel' htmlFor='email'>
-								{/* Email address */}
 								<span className='errorMessage'>
 									{touched['email'] && errors['email']}
 								</span>
@@ -120,7 +111,6 @@ const WaitListForm = ({ status, message, onValidated }) => {
 					</div>
 					<div className='formFieldWrap'>
 						<label className='formFieldLabel' htmlFor='country'>
-							{/* What Country Are You From */}
 							<span className='errorMessage'>
 								{touched['country'] && errors['country']}
 							</span>
@@ -135,25 +125,12 @@ const WaitListForm = ({ status, message, onValidated }) => {
 								placeholder='What Country Are You From'
 							/>
 						</div>
-						{/* <span className='countryCue'>Minimum length is 8 characters</span> */}
 					</div>
 					<div className='formRow col-1'>
 						<button type='submit'>Submit</button>
 					</div>
 				</form>
 			</div>
-			{/* <div className='console'>
-				<header className='baseFormHeader'>
-					<p className='baseFormHeading'>Form Submission Output</p>
-					{submitCount > 0 && <pre>{JSON.stringify(values, null, 2)}</pre>}
-				</header>
-			</div>
-			<div className='console'>
-				<header className='baseFormHeader'>
-					<p className='baseFormHeading'>Errors</p>
-					{<pre>{JSON.stringify(errors, null, 2)}</pre>}
-				</header>
-			</div> */}
 		</>
 	);
 };

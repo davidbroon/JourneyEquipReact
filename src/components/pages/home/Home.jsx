@@ -4,6 +4,7 @@ import WhoAreWe from '../../homeComps/textSections/whoAreWe/whoAreWe';
 import journeyCV from '../../../dummyData/journeyCoreValues.json';
 import LeadersBlock from '../../homeComps/textSections/leaders/LeadersBlock';
 import WaitListForm from '../../homeComps/waitListForm/WaitForm';
+import WhatToExpect from '../../homeComps/WhatToExpect/WhatToExpect';
 
 const Home = () => {
 	const cvMap = () => {
@@ -21,9 +22,9 @@ const Home = () => {
 			<HeroBlock />
 			<WhoAreWe />
 			{cvMap()}
-			<WaitListForm />
-			{/* <MailchimpFormContainer /> */}
 			<LeadersBlock />
+			<WaitListForm />
+			<WhatToExpect />
 		</div>
 	);
 };
