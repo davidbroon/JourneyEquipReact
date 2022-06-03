@@ -4,7 +4,7 @@ import * as Yup from 'yup';
 import './waitListForm.style.css';
 import StyledButton from '../../button/Button';
 
-const WaitListForm = () => {
+const WaitListForm = ({ status, message, onValidated }) => {
 	const [open, setOpen] = useState(false);
 	const [display, setDisplay] = useState('none');
 
@@ -37,6 +37,11 @@ const WaitListForm = () => {
 			setValues({
 				...values,
 				username: `@${values.email.split('@')[0]}`,
+			});
+			onValidated({
+				EMAIL: values.email,
+				MERGE6: values.name,
+				MERGE7: values.country,
 			});
 		},
 	});
