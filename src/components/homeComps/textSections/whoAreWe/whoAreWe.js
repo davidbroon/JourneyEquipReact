@@ -2,7 +2,7 @@ import './whoAreWe.style.css';
 
 const WhoAreWe = () => {
 	return (
-		<p className='whoAreWeParagraph'>
+		<p className='whoAreWeParagraph' id='aboutUsSection'>
 			Journey Equip is a new ministry school run by Journey Community Church
 			located in Antrim, Northern Ireland.
 			<br />

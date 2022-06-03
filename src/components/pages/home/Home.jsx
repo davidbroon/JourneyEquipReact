@@ -22,11 +22,13 @@ const Home = () => {
 		<div>
 			<HeroBlock />
 			<WhoAreWe />
-			<WaitListForm />
+			{WaitListForm('buttonLineTop')}
 			{cvMap()}
 			<LeadersBlock />
-			<WaitListForm />
+			{WaitListForm('buttonLineTop', 'buttonLineBottom')}
+
 			<WhatToExpect />
+			<WaitListForm />
 			<CourseOutline />
 		</div>
 	);

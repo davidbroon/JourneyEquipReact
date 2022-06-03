@@ -1,6 +1,7 @@
 import { HeaderStyle } from './Header-Style';
 import logo from '../../assets/images/whiteLogoJE.png';
 import { NavLink, Link } from 'react-router-dom';
+import { Link as LinkScroll } from 'react-scroll';
 
 const Header = () => {
 	return (
@@ -8,7 +9,14 @@ const Header = () => {
 			<div className='container'>
 				<ul>
 					<li>
-						<NavLink to='/'>About Us</NavLink>
+						<LinkScroll
+							to='aboutUsSection'
+							activeClass='active'
+							spy={true}
+							smooth={true}
+						>
+							About Us
+						</LinkScroll>
 					</li>
 				</ul>
 				<Link to='/'>
@@ -16,7 +24,14 @@ const Header = () => {
 				</Link>
 				<ul>
 					<li>
-						<NavLink to='/'>Course</NavLink>
+						<LinkScroll
+							to='courseOutlineSection'
+							activeClass='active'
+							spy={true}
+							smooth={true}
+						>
+							Course
+						</LinkScroll>
 					</li>
 				</ul>
 			</div>
