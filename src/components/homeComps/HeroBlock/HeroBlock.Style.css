@@ -1,7 +1,7 @@
 .heroImage {
 	background-image: url('../../../assets/images/BG_Image.jpeg');
 	padding-top: 196px;
-	height: 95vh;
+	height: 100vh;
 	background-repeat: no-repeat;
 	width: auto;
 	background-position: center;
@@ -12,7 +12,7 @@
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	height: inherit;
+	height: -webkit-fill-available;
 }
 .heroTitleText {
 	font-family: 'Lemon Milk Light';
@@ -27,6 +27,8 @@
 	font-size: 60px;
 	line-height: 81px;
 	text-align: center;
+	max-height: 160px;
+	height: 14vh;
 }
 
 .heroLine {
@@ -35,7 +37,8 @@
 	align-self: center;
 	gap: 10px;
 	width: 10px;
-	height: 400px;
+	max-height: 400px;
+	height: 35vh;
 }
 
 .heroButtonAndLine {

@@ -3,7 +3,7 @@ import './mcFormStyles.css';
 import MailchimpSubscribe from 'react-mailchimp-subscribe';
 import StyledButton from '../../button/Button';
 import { Input } from '@mui/material';
-import WaitListForm from '../waitListForm/WaitListForm';
+import WaitListForm from './WaitListForm';
 
 const CustomForm = ({ status, message, onValidated }) => {
 	const [open, setOpen] = useState(false);
