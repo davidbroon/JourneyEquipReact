@@ -55,35 +55,3 @@
 	text-align: -webkit-center;
 	top: 75vh;
 }
-.styleButton {
-	display: block;
-	border-radius: 8px;
-	height: 75px;
-	width: 300px;
-	background-color: #fff;
-	color: #000;
-	font-family: 'Lemon Milk Light';
-	font-size: 20px;
-	line-height: 27px;
-	border: 8px solid #f4a306;
-	font-weight: 300;
-	box-shadow: '0px 4px 4px rgba(0, 0, 0, 0.25)';
-}
-.styleButton:hover {
-	background-color: #f4a306;
-	border: '1px solid #0195BA';
-}
-.styleButton:focus {
-	background-color: #f4a306;
-	border: '1px solid #0195BA';
-}
-.styleButton:active {
-	border: 1px solid #0195ba;
-}
-.styleButton:disabled {
-	background-color: 'rgba(0,0,0,0)';
-	color: #c1c1c1;
-	border: 1px solid #c1c1c1;
-	cursor: 'not-allowed';
-	pointer-events: 'visible';
-}

@@ -35,7 +35,7 @@ const CourseOutline = () => {
 
 	return (
 		<>
-			<h1 className='coTitle'>Course Outline</h1>
+			<h1 className='coTitle'>What You Will Learn</h1>
 
 			<Box className='coContainer'>
 				<List className='coList' component='nav'>
