@@ -15,10 +15,10 @@ const HeroBlock = () => {
 				</div>
 
 				<div className='heroButtonAndLine'>
-					<button className='styleButton'>Chat With the team</button>
+					{/* <button className='styleButton'>Chat With the team</button> */}
 
 					<div className='heroLine' style={{ background: accent3 }} />
-					<button className='styleButton'>Apply</button>
+					{/* <button className='styleButton'>Register Your Interest</button> */}
 				</div>
 			</div>
 		</div>
