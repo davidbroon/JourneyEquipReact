@@ -38,11 +38,20 @@ const WaitListForm = ({ status, message, onValidated }) => {
 				...values,
 				username: `@${values.email.split('@')[0]}`,
 			});
-			onValidated({
-				EMAIL: values.email,
-				MERGE6: values.name,
-				MERGE7: values.country,
-			});
+			const userEmail = values.email;
+			const userName = values.name;
+			const userCountry = values.country;
+			const adminEmail = 'davidbroon13@hotmail.com';
+			const subject = 'Registering Interest in Journey Equip';
+			const emailBody =
+				"Journey Equip, %0D%0A I'd like to Register my interest in the school starting autumn 2022-2023 %0D%0A %0D%0A Name: " +
+				userName +
+				'%0D%0A Email: ' +
+				userEmail +
+				'%0D%0A Country: ' +
+				userCountry;
+			document.location =
+				'mailto:' + adminEmail + '?subject=' + subject + '&body=' + emailBody;
 		},
 	});
 
@@ -56,9 +65,9 @@ const WaitListForm = ({ status, message, onValidated }) => {
 	return (
 		<>
 			<div className='openFormButton'>
-				<StyledButton onClick={() => setOpen(!open)}>
+				<button className='styleButton' onClick={() => setOpen(!open)}>
 					Register Interest
-				</StyledButton>
+				</button>
 			</div>
 			<div className='formWrapper' style={{ display: display }}>
 				<form className='baseForm' onSubmit={handleSubmit} noValidate>
