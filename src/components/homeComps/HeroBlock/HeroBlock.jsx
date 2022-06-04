@@ -1,7 +1,5 @@
 import './HeroBlock.Style.css';
 import { accent3, accent2 } from '../../../style/colorConstants';
-import StyledButton from '../../button/Button';
-import { Button } from '@mui/material';
 
 const HeroBlock = () => {
 	return (
