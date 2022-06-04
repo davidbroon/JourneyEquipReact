@@ -87,48 +87,49 @@
 		text-align: right;
 		height: 82px;
 		margin-top: 5px;
-		margin-bottom: 5px;
+		margin-bottom: 53px;
 		width: 60vh;
 	}
 	.cvTitleContainerRight {
 		position: relative;
-		height: 95px;
-		right: -21.4vh;
-		top: 9vh;
+		height: 82px;
+		right: -18.4vh;
+		top: 7vh;
 		width: 26vh;
 	}
 	.cvContentContainerRight {
 		position: relative;
 		height: 40px;
-		right: 12.6vh;
-		top: 36px;
+		right: 15.8vh;
+		top: 25px;
 	}
 
 	.cvBackNumberContainerRight {
 		position: relative;
-		right: 110px;
-		bottom: 130px;
+		right: 134px;
+		bottom: 140px;
 	}
+
 	.cvContainerLeft {
 		margin-left: 5vh;
 		text-align: left;
 		height: 82px;
-		margin-top: 5px;
-		margin-bottom: 5px;
+		margin-top: 10px;
+		margin-bottom: 24px;
 		width: 60vh;
 	}
 	.cvTitleContainerLeft {
 		position: relative;
-		height: 95px;
+		height: 82px;
 		left: -2.4vh;
-		top: 9vh;
+		top: 7vh;
 		width: 28vh;
 	}
 	.cvContentContainerLeft {
 		position: relative;
 		height: 40px;
 		left: -2.4vh;
-		top: 3.5vh;
+		top: 3vh;
 	}
 	.cvBackNumberContainerLeft {
 		position: relative;
