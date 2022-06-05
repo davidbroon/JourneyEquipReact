@@ -1,7 +1,7 @@
 .heroImage {
 	background-image: url('../../../assets/images/BG_Image.jpeg');
 	padding-top: 196px;
-	height: 95vh;
+	height: 100vh;
 	background-repeat: no-repeat;
 	width: auto;
 	background-position: center;
@@ -12,11 +12,16 @@
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	height: inherit;
+	height: -webkit-fill-available;
+	/* top: 40vh;
+	position: absolute;
+	left: 50vh; */
 }
 .heroTitleText {
 	font-family: 'Lemon Milk Light';
 	color: #ffffff;
+	line-height: 85pxpx;
+	font-size: 85px;
 }
 
 .heroTextContainer {
@@ -27,6 +32,11 @@
 	font-size: 60px;
 	line-height: 81px;
 	text-align: center;
+	max-height: 160px;
+	height: 14vh;
+	position: absolute;
+	top: 39vh;
+	left: 30vh;
 }
 
 .heroLine {
@@ -34,12 +44,14 @@
 	flex-direction: column;
 	align-self: center;
 	gap: 10px;
-	width: 10px;
-	height: 400px;
+	width: 8px;
+	max-height: 400px;
+	height: 45vh;
 }
 
 .heroButtonAndLine {
-	display: flex;
-	justify-content: space-evenly;
-	align-items: end;
+	position: absolute;
+	width: -webkit-fill-available;
+	text-align: -webkit-center;
+	top: 75vh;
 }

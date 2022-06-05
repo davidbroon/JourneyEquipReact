@@ -2,8 +2,8 @@ import { Button } from '@mui/material';
 import { styled as styledMui } from '@mui/material';
 import { accent1, accent3 } from '../../style/colorConstants';
 
-export const StyledButton = styledMui(Button)({
-	display: 'flex',
+const StyledButton = styledMui(Button)({
+	display: 'inline-flex',
 	flexDirection: 'row',
 	justifyContent: 'center',
 	alignItems: 'center',
@@ -34,3 +34,4 @@ export const StyledButton = styledMui(Button)({
 		pointerEvents: 'visible',
 	},
 });
+export default StyledButton;

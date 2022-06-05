@@ -1,6 +1,7 @@
 import './HeroBlock.Style.css';
 import { accent3, accent2 } from '../../../style/colorConstants';
-import { StyledButton } from '../../Button/Button';
+import StyledButton from '../../button/Button';
+import { Button } from '@mui/material';
 
 const HeroBlock = () => {
 	return (
@@ -9,15 +10,16 @@ const HeroBlock = () => {
 				<div className='heroTextContainer'>
 					<p className='heroTitleText'>
 						Equipping Leaders for
+						<br />
 						<span style={{ color: accent2 }}> revival</span>
 					</p>
 				</div>
 
 				<div className='heroButtonAndLine'>
-					<StyledButton>Chat With The Team</StyledButton>
+					{/* <button className='styleButton'>Chat With the team</button> */}
 
 					<div className='heroLine' style={{ background: accent3 }} />
-					<StyledButton className='heroButtons'>Apply</StyledButton>
+					{/* <button className='styleButton'>Register Your Interest</button> */}
 				</div>
 			</div>
 		</div>

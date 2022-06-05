@@ -1,0 +1,40 @@
+.coContainer {
+	width: 100%;
+	display: flex;
+	margin-top: 100px;
+}
+.coLine {
+	display: flex;
+	align-self: center;
+	width: 5px;
+	height: 110vh;
+	background: #f4a306;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+}
+.coList {
+	width: -webkit-fill-available;
+}
+.coListItemButton {
+	justify-content: flex-end !important;
+}
+.coListItem {
+	font-family: 'Lemon Milk Light';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 30px;
+	line-height: 70px;
+}
+.coDescription {
+	width: -webkit-fill-available;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.coTitle {
+	font-weight: 500;
+	font-size: 50px;
+	margin-top: 200px;
+	margin-bottom: 100px;
+}

@@ -1,0 +1,75 @@
+.wteContainer {
+	margin-left: 10vh;
+	margin-right: 10vh;
+	margin-top: 20vh;
+}
+.wteHeader {
+	font-family: 'Lemon Milk Medium';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 70px;
+	line-height: 95px;
+	text-align: left;
+	margin-bottom: 19vh;
+}
+.wteContentOne {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+.wteContentOneContainers {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-basis: 30%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.wteContentOneTitle {
+	font-family: 'Lemon Milk';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 50px;
+	line-height: 68px;
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	flex-basis: 30%;
+}
+.wteContentOneLine {
+	display: flex;
+	align-self: center;
+	width: 10px;
+	height: 219px;
+	background: #49a187;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+}
+.wteContentOneContent {
+	font-family: 'Lemon Milk Light';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 25px;
+	line-height: 34px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: space-evenly;
+	flex-direction: row;
+	flex-basis: 30%;
+	align-items: baseline;
+}
+.wteContentTwo {
+	font-family: 'Lemon Milk Light';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 45px;
+	line-height: 61px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	margin-top: 210px;
+	margin-bottom: 200px;
+}
