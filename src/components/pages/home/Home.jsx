@@ -6,6 +6,7 @@ import LeadersBlock from '../../homeComps/textSections/leaders/LeadersBlock';
 import WaitListForm from '../../homeComps/waitListForm/WaitForm';
 import WhatToExpect from '../../homeComps/WhatToExpect/WhatToExpect';
 import CourseOutline from '../../homeComps/courseOutline/CourseOutline';
+import './home.style.css';
 
 const Home = () => {
 	const cvMap = () => {
@@ -25,11 +26,9 @@ const Home = () => {
 			{WaitListForm('buttonLineTop')}
 			{cvMap()}
 			<LeadersBlock />
-			{WaitListForm('buttonLineTop', 'buttonLineBottom')}
-
 			<WhatToExpect />
-			<WaitListForm />
 			<CourseOutline />
+			{WaitListForm('buttonLineTopLarge')}
 		</div>
 	);
 };

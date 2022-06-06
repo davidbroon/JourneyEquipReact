@@ -199,14 +199,14 @@
 		bottom: 115px;
 		left: 151px;
 	}
-	.buttonLineBottom {
+	.buttonLineTopLarge {
 		width: 8px;
 		max-height: 400px;
 		position: relative;
-		height: 115px;
+		height: 640px;
 		background-color: #f4a306;
-		top: 75px;
-		right: 155px;
+		bottom: 392px;
+		left: 155px;
 	}
 }
 @media screen and (max-width: 579px) {
@@ -258,14 +258,15 @@
 		bottom: 5.3vh;
 		left: 13.2vh;
 	}
-	.buttonLineBottom {
+
+	.buttonLineTopLarge {
 		width: 3px;
 		max-height: 400px;
 		position: relative;
-		height: 5.5vh;
+		height: 22vh;
 		background-color: #f4a306;
-		top: 4vh;
-		right: 12.2vh;
+		bottom: 21.9vh;
+		left: 13.3vh;
 	}
 
 	html {
