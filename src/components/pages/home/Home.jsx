@@ -3,7 +3,7 @@ import HeroBlock from '../../homeComps/HeroBlock/HeroBlock';
 import WhoAreWe from '../../homeComps/textSections/WhoAreWe/whoAreWe';
 import journeyCV from '../../../dummyData/journeyCoreValues.json';
 import LeadersBlock from '../../homeComps/textSections/Leaders/LeadersBlock';
-import WaitListForm from '../../homeComps/WaitListForm/WaitForm';
+import WaitListForm from '../../homeComps/WaitListFormFolder/WaitForm';
 import WhatToExpect from '../../homeComps/WhatToExpect/WhatToExpect';
 import CourseOutline from '../../homeComps/CourseOutline/CourseOutline';
 import './home.style.css';
