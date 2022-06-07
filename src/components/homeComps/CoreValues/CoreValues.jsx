@@ -1,4 +1,5 @@
 import './CoreValues.style.css';
+import journeyCV from '../../../dummyData/journeyCoreValues.json';
 
 const CoreValueDisplay = (title, content, backNumber, id) => {
 	let sideSelector;

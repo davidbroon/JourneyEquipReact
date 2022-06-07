@@ -4,7 +4,7 @@ import * as Yup from 'yup';
 import './waitListForm.style.css';
 import StyledButton from '../../button/Button';
 
-const WaitListForm = (borderTop, borderBottom) => {
+const WaitListForm = (borderLine) => {
 	const [open, setOpen] = useState(false);
 	const [display, setDisplay] = useState('none');
 
@@ -65,11 +65,11 @@ const WaitListForm = (borderTop, borderBottom) => {
 	return (
 		<>
 			<div className='openFormButton'>
-				<div className={borderTop}></div>
+				<div className={borderLine}></div>
 				<button className='styleButton' onClick={() => setOpen(!open)}>
 					Register Your Interest
 				</button>
-				<div className={borderBottom}></div>
+				{/* <div className={borderBottom}></div> */}
 			</div>
 			<div className='formWrapper' style={{ display: display }}>
 				<form className='baseForm' onSubmit={handleSubmit} noValidate>
