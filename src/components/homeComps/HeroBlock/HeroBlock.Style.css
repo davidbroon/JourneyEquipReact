@@ -35,9 +35,12 @@
 		text-align: center;
 		max-height: 160px;
 		height: 14vh;
-		position: absolute;
-		top: 39vh;
-		left: 30vh;
+		display: flex;
+		padding-right: 10%;
+		padding-left: 10%;
+		padding-bottom: 17%;
+		align-items: center;
+		justify-content: space-around;
 	}
 
 	.heroLine {
@@ -45,7 +48,7 @@
 		flex-direction: column;
 		align-self: center;
 		gap: 10px;
-		width: 8px;
+		width: 6px;
 		max-height: 400px;
 		height: 45vh;
 	}

@@ -41,12 +41,15 @@
 	.wteContentOneLine {
 		display: flex;
 		align-self: center;
-		width: 10px;
+		width: 6px;
 		height: 219px;
 		background: #00ffb4;
 		display: flex;
 		justify-content: space-evenly;
 		flex-direction: row;
+	}
+	.wteContentOneLineCenter {
+		margin-left: 2px;
 	}
 	.wteContentOneContent {
 		font-family: 'Lemon Milk Light';
@@ -77,6 +80,7 @@
 		width: -webkit-fill-available;
 		text-align: -webkit-center;
 		margin-top: 135px;
+		margin-left: 4.3vh;
 	}
 }
 @media screen and (max-width: 579px) {
@@ -119,8 +123,8 @@
 	.wteContentOneLineContainer {
 		display: flex;
 		align-self: center;
-		width: 3px;
 		width: -webkit-fill-available;
+		width: 3px;
 		height: 127px;
 		flex-direction: row;
 		justify-content: center;
