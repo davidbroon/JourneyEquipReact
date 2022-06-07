@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Button } from 'react-bootstrap';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import './waitListForm.style.css';
@@ -9,7 +10,6 @@ const WaitListForm = (borderLine) => {
 
 	useEffect(() => {
 		open ? setDisplay('inline-flex') : setDisplay('none');
-		console.log('resfsd');
 	}, [open]);
 
 	const {
@@ -64,12 +64,15 @@ const WaitListForm = (borderLine) => {
 
 	return (
 		<>
-			<div className='openFormButton'>
+			<div className='openFormButton' onClick={() => setOpen(!open)}>
 				<div className={borderLine}></div>
-				<button className='styleButton' onClick={() => setOpen(!open)}>
+				<Button
+					type='button'
+					className='styleButton'
+					onClick={() => console.log('resfsd')}
+				>
 					Register Your Interest
-				</button>
-				{/* <div className={borderBottom}></div> */}
+				</Button>
 			</div>
 			<div className='formWrapper' style={{ display: display }}>
 				<form className='baseForm' onSubmit={handleSubmit} noValidate>
