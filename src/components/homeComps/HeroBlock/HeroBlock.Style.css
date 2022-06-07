@@ -45,7 +45,7 @@
 		flex-direction: column;
 		align-self: center;
 		gap: 10px;
-		width: 8px;
+		width: 6px;
 		max-height: 400px;
 		height: 45vh;
 	}

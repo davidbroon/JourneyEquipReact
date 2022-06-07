@@ -26,7 +26,7 @@ const WhatToExpect = () => {
 					{/*  //flex column */}
 					<div className='wteContentOneContainers'>
 						<div className='wteContentOneLine'></div>
-						<div className='wteContentOneLine'></div>
+						<div className='wteContentOneLine wteContentOneLineCenter'></div>
 						<div className='wteContentOneLine'></div>
 					</div>
 					<div className='wteContentOneContainers'>

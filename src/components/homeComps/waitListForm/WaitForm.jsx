@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import './waitListForm.style.css';
-import StyledButton from '../../button/Button';
 
 const WaitListForm = (borderLine) => {
 	const [open, setOpen] = useState(false);
@@ -10,6 +9,7 @@ const WaitListForm = (borderLine) => {
 
 	useEffect(() => {
 		open ? setDisplay('inline-flex') : setDisplay('none');
+		console.log('resfsd');
 	}, [open]);
 
 	const {

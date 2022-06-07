@@ -1,1 +1,26 @@
+@media screen and (min-width: 580px) {
+	svg {
+		position: absolute;
+		left: 37px;
+		top: -389px;
+	}
+	.path {
+		stroke-dasharray: 1;
+		stroke-dashoffset: 1;
+		animation: dash 5s forwards;
+	}
 
+	@keyframes dash {
+		from {
+			stroke-dashoffset: 1;
+		}
+		to {
+			stroke-dashoffset: 0;
+		}
+	}
+}
+@media screen and (max-width: 579px) {
+	svg {
+		display: none;
+	}
+}
