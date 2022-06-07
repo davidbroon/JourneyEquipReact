@@ -1,11 +1,11 @@
-import CoreValueDisplay from '../../homeComps/CoreValues/CoreValues';
-import HeroBlock from '../../homeComps/HeroBlock/HeroBlock';
-import WhoAreWe from '../../homeComps/textSections/WhoAreWe/whoAreWe';
+import CoreValueDisplay from '../../HomeComps/CoreValues/CoreValues';
+import HeroBlock from '../../HomeComps/HeroBlock/HeroBlock';
+import WhoAreWe from '../../HomeComps/TextSectionsFolder/WhoAreWe/whoAreWe';
 import journeyCV from '../../../dummyData/journeyCoreValues.json';
-import LeadersBlock from '../../homeComps/textSections/Leaders/LeadersBlock';
-import WaitListForm from '../../homeComps/WaitListFormFolder/WaitForm';
-import WhatToExpect from '../../homeComps/WhatToExpect/WhatToExpect';
-import CourseOutline from '../../homeComps/CourseOutline/CourseOutline';
+import LeadersBlock from '../../HomeComps/TextSectionsFolder/Leaders/LeadersBlock';
+import WaitListForm from '../../HomeComps/WaitListFormFolder/WaitForm';
+import WhatToExpect from '../../HomeComps/WhatToExpect/WhatToExpect';
+import CourseOutline from '../../HomeComps/CourseOutlineComps/CourseOutline';
 import './home.style.css';
 import { useEffect } from 'react';
 
