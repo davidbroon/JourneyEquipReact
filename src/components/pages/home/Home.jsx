@@ -79,7 +79,6 @@ const Home = () => {
 				</svg>
 			</div> */}
 			<HeroBlock />
-
 			<WhoAreWe />
 			{WaitListForm('buttonLineTop')}
 			{cvMap()}

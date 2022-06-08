@@ -6,18 +6,24 @@ const HeroBlock = () => {
 		<div className='heroImage'>
 			<div className='heroContainer'>
 				<div className='heroTextContainer'>
-					<p className='heroTitleText'>
-						Equipping Leaders for
-						<br />
-						<span style={{ color: accent2 }}> revival</span>
-					</p>
+					<p className='heroTitleText'>Equipping Leaders for revival</p>
 				</div>
 
 				<div className='heroButtonAndLine'>
 					{/* <button className='styleButton'>Chat With the team</button> */}
+					{/* <div className='heroLine' style={{ background: accent3 }} /> */}
 
+					<button
+						className='styleButton heroButton'
+						style={{
+							color: '#000',
+							backgroundColor: 'transparent',
+							fontWeight: 700,
+						}}
+					>
+						Register Your Interest
+					</button>
 					<div className='heroLine' style={{ background: accent3 }} />
-					{/* <button className='styleButton'>Register Your Interest</button> */}
 				</div>
 			</div>
 		</div>

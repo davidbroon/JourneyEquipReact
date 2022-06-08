@@ -11,18 +11,21 @@
 
 	.heroContainer {
 		display: flex;
-		justify-content: center;
+		justify-content: space-between;
 		flex-direction: column;
 		height: -webkit-fill-available;
+		margin-top: 60px;
 		/* top: 40vh;
 	position: absolute;
 	left: 50vh; */
 	}
 	.heroTitleText {
 		font-family: 'articulat-cf';
+		font-weight: 800;
+		font-size: 130px;
+		line-height: 156px;
+		text-align: center;
 		color: #ffffff;
-		line-height: 85px;
-		font-size: 85px;
 	}
 
 	.heroTextContainer {
@@ -38,8 +41,9 @@
 		display: flex;
 		padding-right: 10%;
 		padding-left: 10%;
-		padding-bottom: 17%;
-		align-items: center;
+		padding-bottom: 20%;
+		margin-top: -6%;
+		align-items: flex-start;
 		justify-content: space-around;
 	}
 
@@ -49,15 +53,20 @@
 		align-self: center;
 		gap: 10px;
 		width: 6px;
-		max-height: 400px;
-		height: 45vh;
+		max-height: 222px;
+		height: 60px;
 	}
 
 	.heroButtonAndLine {
-		position: absolute;
+		/* position: absolute; */
 		width: -webkit-fill-available;
 		text-align: -webkit-center;
-		top: 75vh;
+		/* top: 75vh; */
+	}
+	.heroButton {
+		color: #fff;
+		background-color: transparent;
+		font-weight: 700;
 	}
 }
 

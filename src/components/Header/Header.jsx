@@ -9,7 +9,7 @@ const Header = () => {
 		return (
 			<HeaderStyle className='navbar sticky-top flex-md-nowrap p-0'>
 				<div className='container'>
-					<ul>
+					{/* <ul>
 						<li>
 							<LinkScroll
 								to='aboutUsSection'
@@ -20,11 +20,11 @@ const Header = () => {
 								About Us
 							</LinkScroll>
 						</li>
-					</ul>
+					</ul> */}
 					<Link to='/'>
 						<img src={logo} alt='Journey Equip' />
 					</Link>
-					<ul>
+					{/* <ul>
 						<li>
 							<LinkScroll
 								to='courseOutlineSection'
@@ -35,7 +35,7 @@ const Header = () => {
 								Course
 							</LinkScroll>
 						</li>
-					</ul>
+					</ul> */}
 				</div>
 			</HeaderStyle>
 		);

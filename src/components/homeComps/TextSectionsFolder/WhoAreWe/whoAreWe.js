@@ -18,23 +18,27 @@ const WhoAreWe = () => {
 			document.removeEventListener('scroll', handleScroll);
 		};
 	}, []);
+
 	return (
 		<>
-			<p
-				className='whoAreWeParagraph'
-				id='aboutUsSection'
-				style={{
-					backgroundColor: `${bgColor ? '#f8f8f8' : 'white'}`,
-					transition: '1s ease',
-				}}
-			>
-				Journey Equip is a new ministry school run by Journey Community Church
-				located in Antrim, Northern Ireland.
-				<br />
-				<br />
-				Our goal is to equip, train and empower leaders to bring revival to
-				Ireland, Europe and The Nations.
-			</p>
+			<div className='whoAreWeContainer'>
+				<div className='whoAreWeLine' />
+				<p
+					className='whoAreWeParagraph'
+					id='aboutUsSection'
+					style={{
+						backgroundColor: `${bgColor ? '#E5E5E4' : 'white'}`,
+						transition: '1s ease',
+					}}
+				>
+					Journey Equip is a new ministry school run by Journey Community Church
+					located in Antrim, Northern Ireland.
+					<br />
+					<br />
+					Our goal is to equip, train and empower leaders to bring revival to
+					Ireland, Europe and The Nations.
+				</p>
+			</div>
 		</>
 	);
 };
