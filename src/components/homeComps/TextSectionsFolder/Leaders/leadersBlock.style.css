@@ -6,7 +6,7 @@
 		flex-direction: column;
 		color: #000000;
 		/* background-color: #f8f8f8; */
-		font-family: 'Lemon Milk Light';
+		font-family: 'articulat-cf';
 		font-style: normal;
 		font-weight: 300;
 		font-size: 30px;
@@ -26,7 +26,7 @@
 		margin-bottom: 40px;
 		padding-left: 70px;
 		padding-right: 70px;
-		font-family: 'Lemon Milk Medium';
+		font-family: 'articulat-cf';
 	}
 	.leaderLine {
 		display: flex;
@@ -51,7 +51,7 @@
 		flex-direction: column;
 		color: #000000;
 		/* background-color: #f8f8f8; */
-		font-family: 'Lemon Milk Light';
+		font-family: 'articulat-cf';
 		min-height: 244px;
 		margin-right: 25px;
 		margin-left: 25px;
@@ -76,7 +76,7 @@
 		text-align: center;
 
 		color: #000000;
-		font-family: 'Lemon Milk Medium';
+		font-family: 'articulat-cf';
 	}
 	.leaderLine {
 		display: flex;

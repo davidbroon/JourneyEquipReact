@@ -3,10 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './assets/fonts/lemon_milk/LEMONMILK-Light.otf';
-import './assets/fonts/lemon_milk/LEMONMILK-Medium.otf';
-import './assets/fonts/lemon_milk/LEMONMILK-Bold.otf';
-import './assets/fonts/lemon_milk/LEMONMILK-Regular.otf';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

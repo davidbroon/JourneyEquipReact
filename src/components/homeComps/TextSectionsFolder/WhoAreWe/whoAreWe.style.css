@@ -1,7 +1,7 @@
 @media screen and (min-width: 580px) {
 	.whoAreWeParagraph {
 		/* background-color: #f8f8f8; */
-		font-family: 'Lemon Milk Light';
+		font-family: 'articulat-cf';
 		font-style: normal;
 		font-weight: 300;
 		font-size: 30px;
@@ -17,7 +17,7 @@
 }
 @media screen and (max-width: 579px) {
 	.whoAreWeParagraph {
-		font-family: 'Lemon Milk Light';
+		font-family: 'articulat-cf';
 		font-style: normal;
 		font-weight: 300;
 		font-size: 14px;
