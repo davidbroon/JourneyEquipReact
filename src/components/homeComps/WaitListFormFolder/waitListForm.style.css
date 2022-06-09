@@ -110,13 +110,6 @@
 	[data-show-error='true'] {
 		color: red;
 	}
-	.formAndButtonContainer {
-		/* background: linear-gradient(
-			179.57deg,
-			#e5e5e4 0.37%,
-			rgba(229, 229, 228, 0) 85.95%
-		); */
-	}
 
 	.formField {
 		width: 100%;
