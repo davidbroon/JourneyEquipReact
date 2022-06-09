@@ -24,7 +24,7 @@
 	ul {
 		margin: 0;
 		padding: 0;
-		font-family: 'Lemon Milk';
+		font-family: 'articulat-cf';
 		font-weight: normal;
 	}
 
@@ -110,6 +110,13 @@
 	[data-show-error='true'] {
 		color: red;
 	}
+	.formAndButtonContainer {
+		/* background: linear-gradient(
+			179.57deg,
+			#e5e5e4 0.37%,
+			rgba(229, 229, 228, 0) 85.95%
+		); */
+	}
 
 	.formField {
 		width: 100%;
@@ -138,7 +145,7 @@
 		background-color: #49a187;
 		color: white;
 		cursor: pointer;
-		font-family: 'Lemon Milk';
+		font-family: 'articulat-cf';
 		padding: 10px 8px;
 		border-radius: 4px;
 		border: 1px solid #49a187;
@@ -162,15 +169,14 @@
 		border-radius: 8px;
 		height: 75px;
 		width: 300px;
-		background-color: #fff;
+		background: transparent;
 		color: #000;
-		font-family: 'Lemon Milk Light';
+		font-family: 'articulat-cf';
 		font-size: 20px;
-		line-height: 27px;
+		line-height: 24px;
 		border: 6px solid #f4a306;
-		font-weight: 300;
+		font-weight: 800;
 		box-shadow: '0px 4px 4px rgba(0, 0, 0, 0.25)';
-		margin-bottom: 15px;
 	}
 	.styleButton:hover {
 		background-color: #f4a306;
@@ -195,18 +201,27 @@
 		max-height: 400px;
 		position: relative;
 		height: 115px;
-		background-color: #f4a306;
+		background: linear-gradient(
+			180deg,
+			rgba(244, 163, 6, 0) 16.15%,
+			#f4a306 100%
+		);
 		bottom: 115px;
 		left: 151px;
 	}
 	.buttonLineTopLarge {
 		width: 6px;
-		max-height: 400px;
+		/* max-height: 300px; */
 		position: relative;
-		height: 326px;
-		background-color: #f4a306;
-		bottom: 323px;
+		height: 360px;
+		background: linear-gradient(
+			180deg,
+			rgba(244, 163, 6, 0) 16.15%,
+			#f4a306 100%
+		);
+		bottom: 358px;
 		left: 150px;
+		margin-bottom: -248px;
 	}
 }
 @media screen and (max-width: 579px) {
@@ -223,7 +238,7 @@
 		gap: 10px;
 		background-color: #fff;
 		color: #000;
-		font-family: 'Lemon Milk Light';
+		font-family: 'articulat-cf';
 		font-size: 14px;
 		line-height: 14px;
 		border: 3px solid #f4a306;
@@ -294,7 +309,7 @@
 	ul {
 		margin: 0;
 		padding: 0;
-		font-family: 'Lemon Milk';
+		font-family: 'articulat-cf';
 		font-weight: normal;
 	}
 
@@ -408,7 +423,7 @@
 		background-color: #49a187;
 		color: white;
 		cursor: pointer;
-		font-family: 'Lemon Milk';
+		font-family: 'articulat-cf';
 		padding: 10px 8px;
 		border-radius: 4px;
 		border: 1px solid #49a187;

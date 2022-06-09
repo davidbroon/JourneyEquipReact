@@ -13,7 +13,7 @@ const StyledButton = styledMui(Button)({
 	width: 251,
 	backgroundColor: '#FFF',
 	color: '#000',
-	fontFamily: 'Lemon Milk Light',
+	fontFamily: 'Articulat CF Extra Light',
 	fontSize: 20,
 	lineHeight: 27,
 	fontWeight: 300,

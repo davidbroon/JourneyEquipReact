@@ -1,84 +1,133 @@
 @media screen and (min-width: 580px) {
+	.cv {
+		position: relative;
+		height: fit-content;
+	}
 	.cvContainerRight {
+		/* height: 375px; */
+
 		margin-right: 100px;
 		text-align: right;
-		height: 375px;
-		margin-top: 5px;
+		height: fit-content;
+		margin-top: -75px;
 		margin-bottom: 5px;
 	}
 	.cvTitleContainerRight {
+		/* position: relative;
+		height: 95px;
+		right: -22px;
+		top: 200px; */
 		position: relative;
 		height: 95px;
 		right: -22px;
-		top: 200px;
+		top: -103px;
 	}
 	.cvContentContainerRight {
-		position: relative;
+		/* position: relative;
 		height: 40px;
-		right: -22px;
+		right: -51%;
 		top: 185px;
+		width: 50%; */
+		position: relative;
+		height: fit-content;
+		right: -51%;
+		top: -127px;
+		width: 50%;
 	}
 	.cvBackNumberContainerRight {
-		position: relative;
+		/* position: relative;
 		right: -22px;
-		bottom: 134px;
+		bottom: 74px; */
 	}
 	.cvContainerLeft {
 		margin-left: 100px;
 		text-align: left;
-		height: 375px;
-		margin-top: 5px;
+		/* height: 375px; */
+		margin-top: -75px;
 		margin-bottom: 5px;
+		height: fit-content;
 	}
 	.cvTitleContainerLeft {
+		/* position: relative;
+		height: 95px;
+		left: -22px;
+		top: 200px; */
 		position: relative;
 		height: 95px;
 		left: -22px;
-		top: 200px;
+		top: -105px;
 	}
 	.cvContentContainerLeft {
-		position: relative;
+		/* position: relative;
 		height: 40px;
 		left: -22px;
 		top: 185px;
+		width: 50%; */
+		position: relative;
+		height: fit-content;
+		left: -22px;
+		top: -128px;
+		width: 50%;
 	}
 	.cvBackNumberContainerLeft {
-		position: relative;
+		/* position: relative;
 		left: -22px;
-		bottom: 134px;
+		bottom: 74px; */
 	}
 	.cvTitle {
-		font-family: 'Lemon Milk Medium';
+		font-family: 'articulat-cf';
 		font-style: normal;
-		font-weight: 500;
+		text-transform: uppercase;
+		font-weight: 800;
 		font-size: 70px;
-		line-height: 95px;
-		color: #49a187;
+		line-height: 84px;
+		/* identical to box height */
+		color: #f6a21c;
 		margin-block-start: 0em;
 		margin-block-end: 0em;
 	}
 
 	.cvContent {
-		font-family: 'Lemon Milk Light';
+		font-family: 'articulat-cf';
 		font-style: normal;
 		font-weight: 300;
 		font-size: 18px;
 		line-height: 32px;
+		/* or 178% */
 		color: #000000;
 		margin-block-start: 0em;
 		margin-block-end: 0em;
 	}
 
 	.cvBackNumber {
-		font-family: 'Lemon Milk Bold';
+		font-family: 'articulat-cf';
 		font-style: normal;
-		font-weight: 700;
+		font-weight: 900;
 		font-size: 240px;
 		line-height: 240px;
-		color: #0195ba;
+		/* identical to box height, or 100% */
+		color: #17223c;
 		opacity: 0.1;
 		margin-block-start: 0em;
 		margin-block-end: 0em;
+	}
+
+	.cvContainerLeft.reveal {
+		position: relative;
+		transform: translateX(-150px);
+		opacity: 0;
+		transition: 1s all ease;
+	}
+	.cvContainerRight.reveal {
+		position: relative;
+		transform: translateX(150px);
+		opacity: 0;
+		transition: 1s all ease;
+	}
+
+	.reveal.active {
+		transform: translateX(0);
+		opacity: 1;
 	}
 }
 @media screen and (max-width: 579px) {
@@ -137,7 +186,7 @@
 		bottom: 134px;
 	}
 	.cvTitle {
-		font-family: 'Lemon Milk Medium';
+		font-family: 'articulat-cf';
 		font-style: normal;
 		font-weight: 500;
 		font-size: 23px;
@@ -148,7 +197,7 @@
 	}
 
 	.cvContent {
-		font-family: 'Lemon Milk Light';
+		font-family: 'articulat-cf';
 		font-style: normal;
 		font-weight: 300;
 		font-size: 6px;
@@ -159,7 +208,7 @@
 	}
 
 	.cvBackNumber {
-		font-family: 'Lemon Milk Bold';
+		font-family: 'articulat-cf';
 		font-style: normal;
 		font-weight: 700;
 		font-size: 80px;
@@ -168,5 +217,22 @@
 		margin-block-start: 0em;
 		margin-block-end: 0em;
 		color: #0195ba;
+	}
+	.cvContainerLeft.reveal {
+		position: relative;
+		transform: translateX(-150px);
+		opacity: 0;
+		transition: 1s all ease;
+	}
+	.cvContainerRight.reveal {
+		position: relative;
+		transform: translateX(150px);
+		opacity: 0;
+		transition: 1s all ease;
+	}
+
+	.reveal.active {
+		transform: translateX(0);
+		opacity: 1;
 	}
 }

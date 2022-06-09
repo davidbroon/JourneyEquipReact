@@ -1,5 +1,5 @@
 @media screen and (min-width: 580px) {
-	.whoAreWeParagraph {
+	.ResultsTextParagraph {
 		background: linear-gradient(
 			179.57deg,
 			#e5e5e4 0.37%,
@@ -17,7 +17,7 @@
 		padding-top: 24px;
 		margin-bottom: 114px;
 	}
-	.whoAreWeLine {
+	.ResultsTextLine {
 		display: flex;
 		flex-direction: column;
 		align-self: center;
@@ -27,14 +27,14 @@
 		height: 222px;
 		background-color: #f4a306;
 	}
-	.whoAreWeContainer {
+	.ResultsTextContainer {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 	}
 }
 @media screen and (max-width: 579px) {
-	.whoAreWeParagraph {
+	.ResultsTextParagraph {
 		font-family: 'articulat-cf';
 		font-style: normal;
 		font-weight: 300;
