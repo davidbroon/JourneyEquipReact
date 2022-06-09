@@ -1,9 +1,6 @@
 import './courseOutline.style.css';
 
 const CourseOutline = () => {
-	let size = window.matchMedia('(min-width: 580px)');
-
-	let display = size.matches ? 'none' : 'block';
 	return (
 		<>
 			<h1 className='coTitle'>What You Will Learn</h1>
@@ -54,16 +51,6 @@ const CourseOutline = () => {
 					<p className='courseOutlineContent'>Understanding the Bible</p>
 				</div>
 			</div>
-			<div className='coLineContainer' style={{ display: display }}>
-				<div className='coLine'></div>
-			</div>
-			<p className='coContentTwo'>
-				Grow in your identity, develop your noble character, and become who God
-				made you to be.
-				<br />
-				<br /> Leave your time at Journey Equip healthy, whole, healed, free,
-				and empowered in your calling.
-			</p>
 		</>
 	);
 };

@@ -194,7 +194,11 @@
 		max-height: 400px;
 		position: relative;
 		height: 115px;
-		background-color: #f4a306;
+		background: linear-gradient(
+			180deg,
+			rgba(244, 163, 6, 0) 16.15%,
+			#f4a306 100%
+		);
 		bottom: 115px;
 		left: 151px;
 	}
@@ -203,7 +207,11 @@
 		max-height: 400px;
 		position: relative;
 		height: 326px;
-		background-color: #f4a306;
+		background: linear-gradient(
+			180deg,
+			rgba(244, 163, 6, 0) 16.15%,
+			#f4a306 100%
+		);
 		bottom: 323px;
 		left: 150px;
 	}
