@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 import { HeaderStyle } from './Header-Style';
-import logo from '../../assets/images/JE Logo-02.svg';
+import logo from '../../assets/logos/JE Logo-white.svg';
 import { NavLink, Link } from 'react-router-dom';
 import { Link as LinkScroll } from 'react-scroll';
 
