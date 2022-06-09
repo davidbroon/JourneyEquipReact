@@ -1,5 +1,6 @@
 import './HeroBlock.Style.css';
 import { accent3, accent2 } from '../../../style/colorConstants';
+import WaitListForm from '../WaitListFormFolder/WaitForm';
 
 const HeroBlock = () => {
 	return (
@@ -13,7 +14,8 @@ const HeroBlock = () => {
 					{/* <button className='styleButton'>Chat With the team</button> */}
 					{/* <div className='heroLine' style={{ background: accent3 }} /> */}
 
-					<button
+					<WaitListForm />
+					{/* <button
 						className='styleButton heroButton'
 						style={{
 							color: '#000',
@@ -22,7 +24,7 @@ const HeroBlock = () => {
 						}}
 					>
 						Register Your Interest
-					</button>
+					</button> */}
 					<div className='heroLine' style={{ background: accent3 }} />
 				</div>
 			</div>

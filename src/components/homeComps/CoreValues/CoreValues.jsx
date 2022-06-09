@@ -21,14 +21,14 @@ const CoreValueDisplay = (title, content, backNumber, id) => {
 
 	return (
 		<div className={sideSelector}>
+			<div className={backNumberSide}>
+				<p className='cvBackNumber'>{backNumber}</p>
+			</div>
 			<div className={titleContainerSide}>
 				<p className='cvTitle'>{title}</p>
 			</div>
 			<div className={contentContainerSide}>
 				<p className='cvContent'>{content}</p>
-			</div>
-			<div className={backNumberSide}>
-				<p className='cvBackNumber'>{backNumber}</p>
 			</div>
 		</div>
 	);

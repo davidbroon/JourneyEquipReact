@@ -1,53 +1,78 @@
 @media screen and (min-width: 580px) {
+	.cv {
+		position: relative;
+		height: fit-content;
+	}
 	.cvContainerRight {
+		/* height: 375px; */
+
 		margin-right: 100px;
 		text-align: right;
-		height: 375px;
-		margin-top: 5px;
+		height: fit-content;
+		margin-top: -75px;
 		margin-bottom: 5px;
 	}
 	.cvTitleContainerRight {
+		/* position: relative;
+		height: 95px;
+		right: -22px;
+		top: 200px; */
 		position: relative;
 		height: 95px;
 		right: -22px;
-		top: 200px;
+		top: -103px;
 	}
 	.cvContentContainerRight {
-		position: relative;
+		/* position: relative;
 		height: 40px;
 		right: -51%;
 		top: 185px;
+		width: 50%; */
+		position: relative;
+		height: fit-content;
+		right: -51%;
+		top: -127px;
 		width: 50%;
 	}
 	.cvBackNumberContainerRight {
-		position: relative;
+		/* position: relative;
 		right: -22px;
-		bottom: 74px;
+		bottom: 74px; */
 	}
 	.cvContainerLeft {
 		margin-left: 100px;
 		text-align: left;
-		height: 375px;
-		margin-top: 5px;
+		/* height: 375px; */
+		margin-top: -75px;
 		margin-bottom: 5px;
+		height: fit-content;
 	}
 	.cvTitleContainerLeft {
+		/* position: relative;
+		height: 95px;
+		left: -22px;
+		top: 200px; */
 		position: relative;
 		height: 95px;
 		left: -22px;
-		top: 200px;
+		top: -105px;
 	}
 	.cvContentContainerLeft {
-		position: relative;
+		/* position: relative;
 		height: 40px;
 		left: -22px;
 		top: 185px;
+		width: 50%; */
+		position: relative;
+		height: fit-content;
+		left: -22px;
+		top: -128px;
 		width: 50%;
 	}
 	.cvBackNumberContainerLeft {
-		position: relative;
+		/* position: relative;
 		left: -22px;
-		bottom: 74px;
+		bottom: 74px; */
 	}
 	.cvTitle {
 		font-family: 'articulat-cf';
