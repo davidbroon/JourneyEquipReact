@@ -14,18 +14,16 @@
 		justify-content: space-between;
 		flex-direction: column;
 		height: -webkit-fill-available;
-		margin-top: 60px;
-		/* top: 40vh;
-	position: absolute;
-	left: 50vh; */
+		margin-top: 0px;
 	}
 	.heroTitleText {
 		font-family: 'articulat-cf';
 		font-weight: 800;
-		font-size: 130px;
-		line-height: 156px;
+		font-size: 100px;
+		line-height: 136px;
 		text-align: center;
 		color: #ffffff;
+		text-transform: capitalize;
 	}
 
 	.heroTextContainer {
@@ -36,13 +34,13 @@
 		font-size: 60px;
 		line-height: 81px;
 		text-align: center;
-		max-height: 160px;
-		height: 14vh;
+		/* max-height: 160px; */
+		/* height: 14vh; */
 		display: flex;
 		padding-right: 10%;
 		padding-left: 10%;
-		padding-bottom: 20%;
-		margin-top: -6%;
+		padding-bottom: 3%;
+		/* margin-top: -6%; */
 		align-items: flex-start;
 		justify-content: space-around;
 	}
@@ -61,12 +59,57 @@
 		/* position: absolute; */
 		width: -webkit-fill-available;
 		text-align: -webkit-center;
+		margin-bottom: 5%;
+		padding-right: 5%;
+		padding-left: 5%;
 		/* top: 75vh; */
+		display: flex;
+		justify-content: center;
 	}
 	.heroButton {
 		color: #fff;
 		background-color: transparent;
 		font-weight: 700;
+	}
+}
+@media screen and (min-width: 1090px) {
+	.heroContainer {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		height: -webkit-fill-available;
+		margin-top: 60px;
+	}
+}
+@media screen and (min-width: 1420px) {
+	.heroContainer {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		height: -webkit-fill-available;
+		margin-top: 60px;
+		/* top: 40vh;
+	position: absolute;
+	left: 50vh; */
+	}
+	.heroButtonAndLine {
+		width: -webkit-fill-available;
+		text-align: -webkit-center;
+		margin-bottom: 5%;
+		padding-right: 5%;
+		padding-left: 5%;
+		/* top: 75vh; */
+		display: flex;
+		justify-content: center;
+	}
+	.heroTitleText {
+		font-family: 'articulat-cf';
+		font-weight: 800;
+		font-size: 130px;
+		line-height: 156px;
+		text-align: center;
+		color: #ffffff;
+		text-transform: capitalize;
 	}
 }
 
