@@ -7,13 +7,31 @@ const CoreValueDisplay = (title, content, backNumber, id) => {
 	let contentContainerSide;
 	let backNumberSide;
 
+	function reveal() {
+		var reveals = document.querySelectorAll('.reveal');
+
+		for (var i = 0; i < reveals.length; i++) {
+			var windowHeight = window.innerHeight;
+			var elementTop = reveals[i].getBoundingClientRect().top;
+			var elementVisible = 150;
+
+			if (elementTop < windowHeight - elementVisible) {
+				reveals[i].classList.add('active');
+			} else {
+				reveals[i].classList.remove('active');
+			}
+		}
+	}
+
+	window.addEventListener('scroll', reveal);
+
 	if (id % 2) {
-		sideSelector = 'cvContainerLeft';
+		sideSelector = 'cvContainerLeft reveal';
 		titleContainerSide = 'cvTitleContainerLeft';
 		contentContainerSide = 'cvContentContainerLeft';
 		backNumberSide = 'cvBackNumberContainerLeft';
 	} else {
-		sideSelector = 'cvContainerRight';
+		sideSelector = 'cvContainerRight reveal';
 		titleContainerSide = 'cvTitleContainerRight';
 		contentContainerSide = 'cvContentContainerRight';
 		backNumberSide = 'cvBackNumberContainerRight';
