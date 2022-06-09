@@ -1,6 +1,6 @@
 @media screen and (min-width: 580px) {
 	.heroImage {
-		background-image: url('../../../assets/images/BG_Image.jpeg');
+		background-image: url('../../../assets/images/Header.jpeg');
 		padding-top: 196px;
 		height: 100vh;
 		background-repeat: no-repeat;
@@ -115,7 +115,7 @@
 
 @media screen and (max-width: 579px) {
 	.heroImage {
-		background-image: url('../../../assets/images/BG_Image.jpeg');
+		background-image: url('../../../assets/images/Header.jpeg');
 		height: 100vh;
 		background-repeat: no-repeat;
 		width: auto;

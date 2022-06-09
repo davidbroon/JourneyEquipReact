@@ -6,9 +6,9 @@ import LeadersBlock from '../../homeComps/TextSectionsFolder/Leaders/LeadersBloc
 import WaitListForm from '../../homeComps/WaitListFormFolder/WaitForm';
 import CourseOutline from '../../homeComps/CourseOutlineComps/CourseOutline';
 import ResultsText from '../../homeComps/TextSectionsFolder/ResultsText/ResultsText';
-import image1 from '../../../assets/images/faye-cornish-Uq3gTiPlqRo-unsplash.jpg';
-import image2 from '../../../assets/images/ravi-pinisetti-1zikZJVXSfA-unsplash.jpg';
-import image3 from '../../../assets/images/max-van-den-oetelaar-buymYm3RQ3U-unsplash.jpg';
+import image1 from '../../../assets/images/Image1.jpeg';
+import image2 from '../../../assets/images//Image2.jpeg';
+import image3 from '../../../assets/images/Image3.jpeg';
 import './home.style.css';
 // import { useEffect } from 'react';
 import FullWidthBackgroundImage from '../../backgroundImages/BackGroundImage';
