@@ -26,6 +26,7 @@
 		line-height: 156px;
 		text-align: center;
 		color: #ffffff;
+		text-transform: capitalize;
 	}
 
 	.heroTextContainer {
@@ -61,12 +62,30 @@
 		/* position: absolute; */
 		width: -webkit-fill-available;
 		text-align: -webkit-center;
+		margin-bottom: 5%;
+		padding-right: 5%;
+		padding-left: 5%;
 		/* top: 75vh; */
+		display: flex;
+		justify-content: flex-end;
 	}
 	.heroButton {
 		color: #fff;
 		background-color: transparent;
 		font-weight: 700;
+	}
+}
+@media screen and (min-width: 1420px) {
+	.heroButtonAndLine {
+		/* position: absolute; */
+		width: -webkit-fill-available;
+		text-align: -webkit-center;
+		margin-bottom: 5%;
+		padding-right: 5%;
+		padding-left: 5%;
+		/* top: 75vh; */
+		display: flex;
+		justify-content: center;
 	}
 }
 

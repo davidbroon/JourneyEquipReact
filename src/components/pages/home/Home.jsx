@@ -85,7 +85,10 @@ const Home = () => {
 			</div> */}
 			<HeroBlock />
 			<WhoAreWe />
-			<div className='coreValueContainer'>{cvMap()}</div>
+			<div className='coreValueContainer'>
+				<div className='cvLine'></div>
+				{cvMap()}
+			</div>
 
 			{FullWidthBackgroundImage(image1)}
 			<LeadersBlock />
