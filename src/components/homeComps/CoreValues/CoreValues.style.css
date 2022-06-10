@@ -120,7 +120,7 @@
 	}
 	.cvContainerRight.reveal {
 		position: relative;
-		transform: translateX(150px);
+		transform: translateX(-150px);
 		opacity: 0;
 		transition: 1s all ease;
 	}
@@ -234,7 +234,7 @@
 	}
 	.cvContainerRight.reveal {
 		position: relative;
-		transform: translateX(150px);
+		transform: translateX(-150px);
 		opacity: 0;
 		transition: 1s all ease;
 	}
