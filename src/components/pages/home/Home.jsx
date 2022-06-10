@@ -35,7 +35,7 @@ const Home = () => {
 
 			{FullWidthBackgroundImage(image1)}
 			<LeadersBlock />
-			{FullWidthBackgroundImage(image2, 'parallax')}
+			{FullWidthBackgroundImage(image2)}
 			{/* <WhatToExpect /> */}
 			<CourseOutline />
 			{FullWidthBackgroundImage(image3)}
