@@ -9,6 +9,8 @@ const WaitListForm = (borderLine) => {
 	const [display, setDisplay] = useState('none');
 	const [bgColor, setBgColor] = useState('transparent');
 
+	const borderClassname = 'smallScreen ' + borderLine;
+
 	useEffect(() => {
 		open ? setDisplay('inline-flex') : setDisplay('none');
 	}, [open]);
@@ -66,7 +68,7 @@ const WaitListForm = (borderLine) => {
 	return (
 		<div className='formAndButtonContainer'>
 			<div className='openFormButton' onClick={() => setOpen(!open)}>
-				<div className={borderLine}></div>
+				<div className={borderClassname}></div>
 				<Button type='button' className='styleButton'>
 					Register Your Interest
 				</Button>
