@@ -172,13 +172,13 @@
 		align-self: center;
 		gap: 10px;
 		width: 3px;
-		height: 50vh;
+		height: 80%;
 	}
 
 	.heroButtonAndLine {
 		position: absolute;
 		width: -webkit-fill-available;
 		text-align: -webkit-center;
-		top: 60vh;
+		top: 80%;
 	}
 }
