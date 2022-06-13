@@ -1,13 +1,18 @@
 .footerContainer {
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 	height: 110px;
+	justify-content: flex-end;
+	background-color: #f4a306;
+}
+.footerImage {
+	height: 85%;
 }
 .footerCopyright {
 	font-family: 'articulat-cf';
 	font-style: normal;
 	font-weight: 300;
 	font-size: 10px;
-	line-height: 110px;
 	color: #000000;
 }
