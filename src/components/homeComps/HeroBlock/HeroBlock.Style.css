@@ -141,9 +141,6 @@
 		justify-content: center;
 		flex-direction: column;
 		height: -webkit-fill-available;
-		/* top: 40vh;
-	position: absolute;
-	left: 50vh; */
 	}
 	.heroTitleText {
 		font-family: 'articulat-cf';
@@ -180,12 +177,15 @@
 		align-self: center;
 		gap: 10px;
 		width: 3px;
-		height: 80%;
+		height: 17%;
+		color: #fff;
+		margin-top: -2vh;
 	}
 
 	.heroButtonAndLine {
 		position: absolute;
 		width: -webkit-fill-available;
+		height: -webkit-fill-available;
 		text-align: -webkit-center;
 		top: 80%;
 	}
